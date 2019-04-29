@@ -1,0 +1,41 @@
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.container {
+  width: 100%;
+  max-width: 1024px; /*максимальная ширина может иметь другое значение*/
+  padding: 15px 15px;
+  margin: 0 auto;
+}
+
+#response_table {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#response_table td, #response_table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#response_table tr:nth-child(even){background-color: #f2f2f2;}
+
+#response_table tr:hover {background-color: #ddd;}
+
+#response_table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
